@@ -1,0 +1,65 @@
+baseURL = ""
+languageCode = "en-us"
+title = "SADRAD"
+theme = "razorgrrl"
+staticDir = ["static"]
+disqusShortname = ""
+summaryLength = "30"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+[params]
+headline = "online manual"
+author = "radk"
+twitter = ""
+description = ""
+
+enableRobotsTXT = true
+canonifyURLs = true
+
+docsrepo = ""
+siterepo = ""
+license = ""
+licenseimg = ""
+
+[permalinks]
+    post = "/blog/:title"
+
+[params.navigation]
+
+  [[params.navigation.list]]
+    name = "Home"
+    link = "/"
+
+  [[params.navigation.list]]
+    name = "About"
+    link = "/about"
+  
+  [[params.navigation.list]]
+    name = "Archive"
+    link = "/archives"
+  
+[params.contact]
+
+#  [[params.contact.list]]
+#    name = "Instagram"
+#    icon = "fab fa-instagram"
+#    link = "https://instagram.com/radkissonjune"
+
+#  [[params.contact.list]]
+#    name = "Email"
+#    icon = "fa fa-envelope"
+#    link = "mailto:strategiesagainst@protonmail.com"
+
+#  [[params.contact.list]]
+#    name = "GPG key"
+#    icon = "fa fa-key-modern"
+#    link = "/gpg.html"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
