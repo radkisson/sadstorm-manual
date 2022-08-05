@@ -1,6 +1,6 @@
 baseURL = ""
 languageCode = "en-us"
-title = "SADRAD"
+title = "sadrad"
 theme = "razorgrrl"
 staticDir = ["static"]
 disqusShortname = ""
