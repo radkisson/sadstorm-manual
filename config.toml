@@ -47,12 +47,12 @@ licenseimg = ""
 #  [[params.contact.list]]
 #    name = "Instagram"
 #    icon = "fab fa-instagram"
-#    link = "https://instagram.com/radkissonjune"
+#    link = "https://instagram.com/"
 
 #  [[params.contact.list]]
 #    name = "Email"
 #    icon = "fa fa-envelope"
-#    link = "mailto:strategiesagainst@protonmail.com"
+#    link = "mailto:asd@asd.com"
 
 #  [[params.contact.list]]
 #    name = "GPG key"
